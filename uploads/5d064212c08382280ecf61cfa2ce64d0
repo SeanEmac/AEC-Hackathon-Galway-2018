@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<gbXML temperatureUnit="C" lengthUnit="Meters" areaUnit="SquareMeters" volumeUnit="CubicMeters" useSIUnitsForResults="true" xmlns="http://www.gbxml.org/schema" version="0.37">
+	<Campus id="cmps-1">
+		<Location>
+			<Name>55.9596748352051,37.3568420410156</Name>
+			<Latitude>55.959675</Latitude>
+			<Longitude>37.356842</Longitude>
+		</Location>
+		<Building id="bldg-1" buildingType="Retail">
+			<Area>1928.280000</Area>
+			<InfiltrationFlow type="Tight">
+			</InfiltrationFlow>
+			<BuildingStorey id="bldg-stry-1">
+				<Name>Level 1</Name>
+				<Level>0.000000</Level>
+				<PlanarGeometry>
+					<PolyLoop>
+						<CartesianPoint>
+							<Coordinate>7.143809</Coordinate>
+							<Coordinate>-19.553159</Coordinate>
+							<Coordinate>0.000000</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>7.143809</Coordinate>
+							<Coordinate>30.746841</Coordinate>
+							<Coordinate>0.000000</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>-13.156191</Coordinate>
+							<Coordinate>30.746841</Coordinate>
+							<Coordinate>0.000000</Coordinate>
+						</CartesianPoint>
+						<CartesianPoint>
+							<Coordinate>-13.156191</Coordinate>
+							<Coordinate>-19.553159</Coordinate>
+							<Coordinate>0.000000</Coordinate>
+						</CartesianPoint>
+					</PolyLoop>
+				</PlanarGeometry>
+			</BuildingStorey>
+        </Building>
+    </Campus>
+</gbXML>
